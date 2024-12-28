@@ -1,0 +1,46 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "alpaca-spanish",
+  "dataset_size": 21439975,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/bertin-project/alpaca-spanish@47078cb55738e8041dae8d87dae6e11d97574468/data/train-00000-of-00001-3a8ceb2c27df896f.parquet": {
+      "num_bytes": 13178075,
+      "checksum": null
+    }
+  },
+  "download_size": 13178075,
+  "features": {
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 34618050,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 21439975,
+      "num_examples": 51942,
+      "dataset_name": "alpaca-spanish"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

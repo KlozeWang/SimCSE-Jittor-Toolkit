@@ -1,0 +1,69 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "chinese_web_text2.0",
+  "dataset_size": 5188124,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/CASIA-LM/ChineseWebText2.0@9b647306646e5ddd85cc239870fc39bfb60e9531/test.jsonl": {
+      "num_bytes": 2720476,
+      "checksum": null
+    },
+    "hf://datasets/CASIA-LM/ChineseWebText2.0@9b647306646e5ddd85cc239870fc39bfb60e9531/test_demo.jsonl": {
+      "num_bytes": 2720476,
+      "checksum": null
+    }
+  },
+  "download_size": 5440952,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "domain": {
+      "single_label": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "multi_label": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      }
+    },
+    "toxicity": {
+      "label": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "score": {
+        "dtype": "float64",
+        "_type": "Value"
+      }
+    },
+    "quality_score": {
+      "dtype": "float64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 10629076,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 5188124,
+      "num_examples": 2000,
+      "dataset_name": "chinese_web_text2.0"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

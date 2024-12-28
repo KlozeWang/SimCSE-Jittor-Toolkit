@@ -1,0 +1,58 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "alpaca-data-gpt4-chinese",
+  "dataset_size": 73928476,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/silk-road/alpaca-data-gpt4-chinese@81a6dfd72f416aff605e7d189bfbbc46a2511fee/Alpaca_data_gpt4_zh.jsonl": {
+      "num_bytes": 78401244,
+      "checksum": null
+    }
+  },
+  "download_size": 78401244,
+  "features": {
+    "instruction_zh": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input_zh": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output_zh": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 152329720,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 73928476,
+      "num_examples": 52049,
+      "dataset_name": "alpaca-data-gpt4-chinese"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

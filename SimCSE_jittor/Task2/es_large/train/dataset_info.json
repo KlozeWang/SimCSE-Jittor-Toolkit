@@ -1,0 +1,80 @@
+{
+  "builder_name": "large_spanish_corpus",
+  "citation": "@dataset{jose_canete_2019_3247731,\n  author       = {Jos\u00e9 Ca\u00f1ete},\n  title        = {Compilation of Large Spanish Unannotated Corpora},\n  month        = may,\n  year         = 2019,\n  publisher    = {Zenodo},\n  doi          = {10.5281/zenodo.3247731},\n  url          = {https://doi.org/10.5281/zenodo.3247731}\n}\n",
+  "config_name": "combined",
+  "dataset_name": "large_spanish_corpus",
+  "dataset_size": 19428136743,
+  "description": "The Large Spanish Corpus is a compilation of 15 unlabelled Spanish corpora spanning Wikipedia to European parliament notes. Each config contains the data corresponding to a different corpus. For example, \"all_wiki\" only includes examples from Spanish Wikipedia. By default, the config is set to \"combined\" which loads all the corpora; with this setting you can also specify the number of samples to return per corpus by configuring the \"split\" argument.\n",
+  "download_checksums": {
+    "data/raw.zip": {
+      "num_bytes": 5793717324,
+      "checksum": null
+    }
+  },
+  "download_size": 5793717324,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://github.com/josecannete/spanish-corpora",
+  "license": "MIT",
+  "size_in_bytes": 25221854067,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 19428136743,
+      "num_examples": 302656160,
+      "shard_lengths": [
+        4780000,
+        3546000,
+        6485000,
+        4994000,
+        3848000,
+        3318000,
+        3523000,
+        3605000,
+        3921000,
+        3689000,
+        3682000,
+        3320000,
+        2830000,
+        2857000,
+        2797000,
+        2798000,
+        2959000,
+        3115000,
+        3112000,
+        3749000,
+        4107000,
+        4338000,
+        4168000,
+        13746000,
+        14610000,
+        14322000,
+        14235000,
+        14633000,
+        13992000,
+        14116000,
+        14012000,
+        14451000,
+        13967000,
+        14427000,
+        14148000,
+        14302000,
+        13967000,
+        14143000,
+        4044160
+      ],
+      "dataset_name": "large_spanish_corpus"
+    }
+  },
+  "version": {
+    "version_str": "1.1.0",
+    "description": "",
+    "major": 1,
+    "minor": 1,
+    "patch": 0
+  }
+}

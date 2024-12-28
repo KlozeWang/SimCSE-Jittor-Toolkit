@@ -1,0 +1,64 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "sts22-crosslingual-sts",
+  "dataset_size": 43767054,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mteb/sts22-crosslingual-sts@d31f33a128469b20e357535c39b82fb3c3f6f2bd/data/test.jsonl.gz": {
+      "num_bytes": 7528112,
+      "checksum": null
+    },
+    "hf://datasets/mteb/sts22-crosslingual-sts@d31f33a128469b20e357535c39b82fb3c3f6f2bd/data/train.jsonl.gz": {
+      "num_bytes": 9018863,
+      "checksum": null
+    }
+  },
+  "download_size": 16546975,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "score": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "sentence1": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sentence2": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "lang": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 60314029,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 19784164,
+      "num_examples": 3958,
+      "dataset_name": "sts22-crosslingual-sts"
+    },
+    "train": {
+      "name": "train",
+      "num_bytes": 23982890,
+      "num_examples": 4622,
+      "dataset_name": "sts22-crosslingual-sts"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

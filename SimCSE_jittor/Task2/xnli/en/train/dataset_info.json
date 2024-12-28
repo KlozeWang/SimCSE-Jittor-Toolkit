@@ -1,0 +1,70 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "en",
+  "dataset_name": "xnli",
+  "dataset_size": 75802650,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/facebook/xnli@b8dd5d7af51114dbda02c0e3f6133f332186418e/en/train-00000-of-00001.parquet": {
+      "num_bytes": 50161923,
+      "checksum": null
+    },
+    "hf://datasets/facebook/xnli@b8dd5d7af51114dbda02c0e3f6133f332186418e/en/test-00000-of-00001.parquet": {
+      "num_bytes": 308237,
+      "checksum": null
+    },
+    "hf://datasets/facebook/xnli@b8dd5d7af51114dbda02c0e3f6133f332186418e/en/validation-00000-of-00001.parquet": {
+      "num_bytes": 157207,
+      "checksum": null
+    }
+  },
+  "download_size": 50627367,
+  "features": {
+    "premise": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "hypothesis": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "names": [
+        "entailment",
+        "neutral",
+        "contradiction"
+      ],
+      "_type": "ClassLabel"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 126430017,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 74493114,
+      "num_examples": 392702,
+      "dataset_name": "xnli"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 875761,
+      "num_examples": 5010,
+      "dataset_name": "xnli"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 433775,
+      "num_examples": 2490,
+      "dataset_name": "xnli"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
